@@ -39,6 +39,7 @@ html
 	&-battle
 		background-image url('../images/pattern.jpg')
 		background-size cover
+		max-width 80%
 		border-color(#ab0000)
 		flex 1
 		margin 0 8px;
@@ -63,6 +64,21 @@ html
 .Phases
 	background #ae2c2c
 	color #fff
-	text-align center	
-		
+	text-align center
+
+.Battle
+	transform scale(0.9)
+	padding 8px
+	
+	&-rival
+		display flex
+		justify-content space-between
+		> div
+			margin 5px
+				
+	&-player
+		display flex
+		justify-content space-between
+		> div
+			margin 5px		
 
