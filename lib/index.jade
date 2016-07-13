@@ -18,8 +18,12 @@ body
 				each name in ["Raul", "Raul2"]
 					include ./status/template.jade
 
-			div(class="Layout-battle") ::battle::
-			div(class="Layout-phases") ::phases::
+			div(class="Layout-battle")
+			div(class="Layout-phases")
+				div(class="Phases")
+					- text = ":Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa, officia:"
+					include ./phases/template.jade
+
 		section(class="Layout-player")
 			each card in [1,2,3,4,5]
 				include ./card/template.jade
