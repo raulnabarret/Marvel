@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "stylus": "stylus --compress lib --out public/css/",
-    "jade": "jade -o ./ -P lib/index.jade"
+    "jade": "jade -o ./ -P lib/index.jade",
+    "update": "jade -o ./ -P lib/index.jade && stylus --compress lib --out public/css/"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/raulnabarret/Marvel/issues"
   },
-  "homepage": "https://github.com/raulnabarret/Marvel#readme"
+  "homepage": "https://github.com/raulnabarret/Marvel#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
 }
