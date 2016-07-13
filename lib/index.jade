@@ -14,7 +14,10 @@ body
 			each card in [1,2,3,4,5]
 				include ./card/template.jade
 		section(class="Layout-main")
-			div(class="Layout-status") ::status::
+			div(class="Layout-status")
+				each name in ["Raul", "Raul2"]
+					include ./status/template.jade
+
 			div(class="Layout-battle") ::battle::
 			div(class="Layout-phases") ::phases::
 		section(class="Layout-player")
