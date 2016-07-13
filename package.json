@@ -1,0 +1,20 @@
+{
+  "name": "marvel",
+  "version": "0.1.0",
+  "description": "Curso de Platzi de preprocesadores, CCSS y ES6 consumiendo el API de Marvel",
+  "main": "index.js",
+  "scripts": {
+    "stylus": "stylus --compress lib --out public/css/",
+    "jade": "jade -o ./ -P lib/index.jade"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raulnabarret/Marvel.git"
+  },
+  "author": "Raúl Nabarret",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/raulnabarret/Marvel/issues"
+  },
+  "homepage": "https://github.com/raulnabarret/Marvel#readme"
+}
