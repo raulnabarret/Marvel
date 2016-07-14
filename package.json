@@ -7,6 +7,7 @@
     "stylus": "stylus --compress lib --out public/css/",
     "jade": "jade -o ./ -P lib/index.jade",
     "update": "jade -o ./ -P lib/index.jade && stylus --compress lib --out public/css/",
+    "babel": "babel --watch lib --out-dir public/",    
     "serve": "http-server ."
   },
   "repository": {
