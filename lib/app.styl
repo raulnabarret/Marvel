@@ -1,10 +1,13 @@
-@import "./card/styles.styl"
-
 border-color(color)
 	border 1px solid color
 	box-sizing: border-box
 
-html 
+@import "./battle/styles.styl"
+@import "./card/styles.styl"
+@import "./phases/styles.styl"
+@import "./status/styles.styl"
+
+body 
 	font-family 'Arial'
 		
 .Layout
@@ -48,37 +51,4 @@ html
 		background #ae2c2c
 		border-color(#ab0000)
 		width 200px
-		
-.Status
-	&-player
-		background #ab0000
-		color #fff
-		margin 0 0
-		padding 8px
-	&-points
-		color #fff
-		text-align center
-		margin 0
-		padding 8px
-
-.Phases
-	background #ae2c2c
-	color #fff
-	text-align center
-
-.Battle
-	transform scale(0.9)
-	padding 8px
-	
-	&-rival
-		display flex
-		justify-content space-between
-		> div
-			margin 5px
-				
-	&-player
-		display flex
-		justify-content space-between
-		> div
-			margin 5px		
 

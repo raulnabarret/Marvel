@@ -19,13 +19,7 @@ body
 					include ./status/template.jade
 
 			div(class="Layout-battle")
-				div(class="Battle")
-					div(class="Battle-rival")
-						each card in [1,2,3,4,5]
-							include ./card/template.jade
-					div(class="Battle-player")
-						each card in [1,2,3,4,5]
-							include ./card/template.jade
+				include ./battle/template.jade
 
 			div(class="Layout-phases")
 				div(class="Phases")
