@@ -12,7 +12,7 @@ body
 	section(class="Layout")
 		section(class="Layout-rival")
 			each card in [1,2,3,4,5]
-				include ./card/template.jade
+				include ./card-hidden/template.jade
 		section(class="Layout-main")
 			div(class="Layout-status")
 				each name in ["Raul", "Raul2"]
@@ -28,5 +28,8 @@ body
 
 		section(class="Layout-player")
 			each card in [1,2,3,4,5]
-				include ./card/template.jade
+				include ./card-hidden/template.jade
+
+	script(src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js")
+	script(src="lib/app.js")
 		

@@ -6,7 +6,8 @@
   "scripts": {
     "stylus": "stylus --compress lib --out public/css/",
     "jade": "jade -o ./ -P lib/index.jade",
-    "update": "jade -o ./ -P lib/index.jade && stylus --compress lib --out public/css/"
+    "update": "jade -o ./ -P lib/index.jade && stylus --compress lib --out public/css/",
+    "serve": "http-server ."
   },
   "repository": {
     "type": "git",
