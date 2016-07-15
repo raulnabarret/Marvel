@@ -20,7 +20,17 @@ $(document).ready(function () {
 		}
 		return Promise.all(promises);
 	}).then(characters => {
-		console.log(characters);
+		$('.Card').each((i, item) => {
+			let character = characters[i];
+			let $this = $(item);
+			let $image = $this.find('.Card-image');
+			let $description = $this.find('.Card-description');
+			let $name = $this.find('.Card-name');
+
+			$image.attr('src', `${ character.thumbnail.path }.${ character.thumbnail.extension }`);
+			$name.text(character.name);
+			$description.text(character.description);
+		});
 	}).catch(err => {
 		console.error(err);
 	});

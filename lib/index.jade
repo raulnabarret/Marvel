@@ -11,7 +11,7 @@ body
 
 	section(class="Layout")
 		section(class="Layout-rival")
-			each card in [1,2,3,4,5]
+			each cardhidden in [1,2,3,4,5]
 				include ./card-hidden/template.jade
 		section(class="Layout-main")
 			div(class="Layout-status")
@@ -27,7 +27,7 @@ body
 					include ./phases/template.jade
 
 		section(class="Layout-player")
-			each card in [1,2,3,4,5]
+			each cardhidden in [1,2,3,4,5]
 				include ./card-hidden/template.jade
 
 	script(src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js")
