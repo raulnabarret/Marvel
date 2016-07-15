@@ -23,7 +23,7 @@ $(document).ready(function () {
 		$('.Card').each((i, item) => {
 			let character = characters[i];
 			let $this = $(item);
-			let $image = $this.find('.Card-image');
+			let $image = $this.find('.Card-image img');
 			let $description = $this.find('.Card-description');
 			let $name = $this.find('.Card-name');
 
