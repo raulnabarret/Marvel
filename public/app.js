@@ -5,7 +5,7 @@ $(document).ready(function () {
 	var key = '70c13ec2b56b84adfcd99807f11bbe74';
 	var api = new MarvelApi(key);
 
-	api.findSeries('avengers').then(serie => {
+	api.findSeries('captain%20america').then(serie => {
 
 		let serieImage = `url(${ serie.thumbnail.path }.${ serie.thumbnail.extension })`;
 		$('.Layout').css('background-image', serieImage);
@@ -19,7 +19,9 @@ $(document).ready(function () {
 			promises.push(promise);
 		}
 		return Promise.all(promises);
-	}).then(characters => {
+	})
+	// .then((characters).filter(character) => return !!character.thumbnail && !!character.description )
+	.then(characters => {
 		$('.Card').each((i, item) => {
 			let character = characters[i];
 			let $this = $(item);
