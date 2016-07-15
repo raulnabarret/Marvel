@@ -7,6 +7,9 @@ $(document).ready(function () {
 
 	api.findSeries('avengers').then(serie => {
 
+		let serieImage = `url(${ serie.thumbnail.path }.${ serie.thumbnail.extension })`;
+		$('.Layout').css('background-image', serieImage);
+
 		var characters = serie.characters.items;
 		var promises = [];
 
