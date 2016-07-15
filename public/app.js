@@ -5,7 +5,7 @@ $(document).ready(function () {
 	var key = '70c13ec2b56b84adfcd99807f11bbe74';
 	var api = new MarvelApi(key);
 
-	api.findSeries('captain%20america').then(serie => {
+	api.findSeries('avengers').then(serie => {
 
 		let serieImage = `url(${ serie.thumbnail.path }.${ serie.thumbnail.extension })`;
 		$('.Layout').css('background-image', serieImage);
