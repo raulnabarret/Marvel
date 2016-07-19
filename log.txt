@@ -1,0 +1,137 @@
+commit 25c776148a966a656f2b85ed100109044f0c8d20
+Author: raulnabarret <raulnabarret@gmail.com>
+Date:   Fri Jul 15 19:51:50 2016 -0500
+
+    Cambiar elementos del componente Card
+
+commit 4d962e679c7b9d990b64ad7c85fb6bcc7e22cb73
+Author: raulnabarret <raulnabarret@gmail.com>
+Date:   Fri Jul 15 19:44:16 2016 -0500
+
+    Generar números aleatorios para los points en el componente Card
+
+commit ff3630b7fa18d9903713ae7bba1f1113ca5a6d88
+Author: raulnabarret <raulnabarret@gmail.com>
+Date:   Fri Jul 15 13:47:20 2016 -0500
+
+    Cortar el texto en el name del componente Card para mostrarlo en una sola línea con ellipsis de CSS
+
+commit d9a81dc9de86b8c9cca5714326382c126b1cea9e
+Author: raulnabarret <raulnabarret@gmail.com>
+Date:   Fri Jul 15 13:26:32 2016 -0500
+
+    Imprimir información del API de Marvel en las cartas del Layout
+
+commit 9f2d5ce72421453970922f8b0ad3a4c3cde44d96
+Author: raulnabarret <raulnabarret@gmail.com>
+Date:   Fri Jul 15 12:38:40 2016 -0500
+
+    Imprimir información del API de Marvel en las cartas del Layout
+
+commit 5b368bafd6f3db089782093e7f89c48ac57f3c8d
+Author: raulnabarret <raulnabarret@gmail.com>
+Date:   Fri Jul 15 12:36:33 2016 -0500
+
+    Imprimir información del API de Marvel en las cartas del Layout
+
+commit 07203d7549e92cd0d80e519c4a6df461af1d4a13
+Author: raulnabarret <raulnabarret@gmail.com>
+Date:   Fri Jul 15 11:07:09 2016 -0500
+
+    Cambiar background del Layout con base en la serie solicitada al API de Marvel
+
+commit 96ad52fed9992b34c9b5528702116d8c1f792c2f
+Author: raulnabarret <raulnabarret@gmail.com>
+Date:   Fri Jul 15 11:06:01 2016 -0500
+
+    Corregir error que no permitía acceder al API de Marvel (Missing API Key)
+
+commit ef8c4d104141a4a0f41aec9b55b1bc6cfe86ec8a
+Author: raulnabarret <raulnabarret@gmail.com>
+Date:   Thu Jul 14 15:24:24 2016 -0500
+
+    Cambios a app.js usando ES6
+
+commit af0b510d908ed6510b4846efa7dc2333a2fb0093
+Author: raulnabarret <raulnabarret@gmail.com>
+Date:   Thu Jul 14 14:54:33 2016 -0500
+
+    Regresar los objetos del API de Marvel mediante promesas
+
+commit 455b7cf7a3da17410d834c1d29fccfb87543f406
+Author: raulnabarret <raulnabarret@gmail.com>
+Date:   Wed Jul 13 19:02:43 2016 -0500
+
+    Organizar proyecto por Componentes (.jade y .stylus)
+
+commit e294674219677e09142d703343a507f61ec25680
+Author: raulnabarret <raulnabarret@gmail.com>
+Date:   Wed Jul 13 18:51:35 2016 -0500
+
+    Reorganizar y desplegar elementos en el componente Battle
+
+commit c97094842066398edbed2729a242e4370e660f5b
+Author: raulnabarret <raulnabarret@gmail.com>
+Date:   Wed Jul 13 18:41:29 2016 -0500
+
+    Modificar estilos de las Cards
+
+commit ac8a3e6c554d840cdca0cb242714b89b9928be96
+Author: raulnabarret <raulnabarret@gmail.com>
+Date:   Wed Jul 13 18:16:06 2016 -0500
+
+    Imágenes del proyecto
+
+commit c67637dfe5e7d7511282ebe3d0eb54ed4cf38cf7
+Author: raulnabarret <raulnabarret@gmail.com>
+Date:   Wed Jul 13 18:15:46 2016 -0500
+
+    Agregar estilos y modificar la estructura de Status y Phases
+
+commit d27917ca79bbceddcae148d467e5735cce084d0d
+Author: raulnabarret <raulnabarret@gmail.com>
+Date:   Wed Jul 13 17:10:03 2016 -0500
+
+    Desplegar componente de Status (Player y Score)
+
+commit 267c0156a092d8d145746a562ff79a7340c26682
+Author: raulnabarret <raulnabarret@gmail.com>
+Date:   Wed Jul 13 16:54:55 2016 -0500
+
+    gitignore
+
+commit 6bf69c5ee2cc46ced8a224e4b05f4f4740bd4328
+Author: raulnabarret <raulnabarret@gmail.com>
+Date:   Wed Jul 13 16:51:37 2016 -0500
+
+    Desplegar cartas para rival y player
+
+commit f9c915bdaca581cc9d190ead22739ad573bd230c
+Author: raulnabarret <raulnabarret@gmail.com>
+Date:   Wed Jul 13 16:41:07 2016 -0500
+
+    Estructura básica del layout del juego
+
+commit a858f67fd06f9668dad2dfe4c73de89b7dc88e3e
+Author: raulnabarret <raulnabarret@gmail.com>
+Date:   Wed Jul 13 16:40:17 2016 -0500
+
+    gitignore
+
+commit 2deb72146f35970884aa86d725b2cf4221e1bff4
+Author: raulnabarret <raulnabarret@gmail.com>
+Date:   Wed Jul 13 16:39:52 2016 -0500
+
+    Comandos para automatizar la compilacion de .stylus y el render de .jade
+
+commit b2c5de7703b905d6bebd536df16dd1dbc506083a
+Author: raulnabarret <raulnabarret@gmail.com>
+Date:   Wed Jul 13 16:09:09 2016 -0500
+
+    package.json
+
+commit 55483c164e647fb776a8db4e98302499ddbbb44b
+Author: raulnabarret <raulnabarret@gmail.com>
+Date:   Tue Jul 12 14:49:24 2016 -0500
+
+    Exportar archivos a nuevo folder
